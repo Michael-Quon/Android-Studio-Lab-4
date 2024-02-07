@@ -10,9 +10,6 @@ import com.google.android.material.snackbar.Snackbar;
 
 public class MichaelActivity1 extends BaseActivity {
 
-    EditText editText;
-    Button button;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,12 +22,12 @@ public class MichaelActivity1 extends BaseActivity {
             public void onClick(View v) {
                 // Get text from EditText
                 EditText editText = findViewById(R.id.editText);
-                String userInput = editText.getText().toString();
+                String userData = editText.getText().toString();
                 long dataToSend;
 
                 // Check if EditText is empty
-                if (!userInput.isEmpty()) {
-                    dataToSend = Long.parseLong(userInput);
+                if (!userData.isEmpty()) {
+                    dataToSend = Long.parseLong(userData);
                 } else {
                     dataToSend = -1000L; // Default value when EditText is empty
                 }

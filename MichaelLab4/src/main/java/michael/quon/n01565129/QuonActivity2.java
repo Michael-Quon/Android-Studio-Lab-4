@@ -11,10 +11,10 @@ public class QuonActivity2 extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quon);
 
-        TextView dataTextView = findViewById(R.id.dataTextView);
+        TextView userViewText = findViewById(R.id.userViewText);
         // Retrieve the long data passed from the first activity
         long userData = getIntent().getLongExtra("DATA_KEY", -1000);
-        dataTextView.setText(String.valueOf(userData)); // Display only the number without the prefix
+        userViewText.setText(String.valueOf(userData)); // Display only the number without the prefix
 
         // Log the received data
         Log.d("QuonActivity2", "Received data: " + userData);
