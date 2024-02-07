@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">Michael Quon N01565129</string>
     <string name="welcome_michael_quon_n01565129">Welcome Michael Quon N01565129</string>
+    <string name="enter_five_digits">Enter Five Digits</string>
+    <string name="button">Button</string>
 </resources>
