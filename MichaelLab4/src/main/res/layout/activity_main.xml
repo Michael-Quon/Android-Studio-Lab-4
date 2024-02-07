@@ -31,7 +31,6 @@
         android:layout_marginStart="106dp"
         android:layout_marginTop="359dp"
         android:autofillHints="Enter Five Digits"
-        android:ems="10"
         android:hint="@string/enter_five_digits"
         android:inputType="number"
         android:maxLength="5"
