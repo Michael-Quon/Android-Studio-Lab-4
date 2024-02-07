@@ -13,8 +13,14 @@
         android:theme="@style/Theme.MichaelLab4"
         tools:targetApi="31">
         <activity
+            android:name=".QuonActivity2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat"/>
+        <activity
             android:name=".MichaelActivity1"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
